@@ -18,6 +18,13 @@ RESOURCE_MAPPING = {
             "GET",
         ]
     },
+    'reviews': {
+        'resource': 'reviews',
+        'docs': 'http://developers.bookingsync.com/reference/endpoints/reviews/#list-reviews',
+        "methods": [
+            "GET",
+        ]
+    },
     'clients': {
         'resource': 'clients',
         'docs': 'http://developers.bookingsync.com/reference/endpoints/clients/#list-clients',
